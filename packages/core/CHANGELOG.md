@@ -1,5 +1,24 @@
 # @keystone-6/core
 
+## 2.1.0
+
+### Minor Changes
+
+- [#7538](https://github.com/keystonejs/keystone/pull/7538) [`c862e876c`](https://github.com/keystonejs/keystone/commit/c862e876c411c26ab5356d155f9c8914663e9654) Thanks [@borisno2](https://github.com/borisno2)! - Added `db.nativeType` option to the `text` field to customise the database type.
+
+* [#7578](https://github.com/keystonejs/keystone/pull/7578) [`29db9b5de`](https://github.com/keystonejs/keystone/commit/29db9b5de4d4a13150730f797463e3f8bb1c75d8) Thanks [@Achisingh](https://github.com/Achisingh)! - Added `ui.description` option to fields to show a description below the label in the Admin UI
+
+### Patch Changes
+
+- [#7616](https://github.com/keystonejs/keystone/pull/7616) [`65382ed80`](https://github.com/keystonejs/keystone/commit/65382ed80a77761fd7b0b7b21990151ab7b3eb30) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fixed inconsistent spacing in the Admin UI on relationships fields using the cards display mode
+
+* [#7538](https://github.com/keystonejs/keystone/pull/7538) [`c862e876c`](https://github.com/keystonejs/keystone/commit/c862e876c411c26ab5356d155f9c8914663e9654) Thanks [@borisno2](https://github.com/borisno2)! - Added support for MySQL
+
+- [#7629](https://github.com/keystonejs/keystone/pull/7629) [`f9ca9eddf`](https://github.com/keystonejs/keystone/commit/f9ca9eddf69864e8f85c5df1ea56a5400c9916e2) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fixed inline create and edit forms on relationship fields using the cards display mode not using form elements.
+
+- Updated dependencies [[`29db9b5de`](https://github.com/keystonejs/keystone/commit/29db9b5de4d4a13150730f797463e3f8bb1c75d8)]:
+  - @keystone-ui/fields@7.1.0
+
 ## 2.0.0
 
 ### Major Changes
